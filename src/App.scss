@@ -1,0 +1,32 @@
+.App{
+    .music-container{
+        .music-container-title{
+            text-align: center;
+        }
+        .music-container-content{
+            margin-top: 100px;
+            .artists{
+                width: 50%;
+                margin-left: 25%;
+                .artists-accordion{
+                    background-color:gray;
+                    margin-bottom: 10px;
+                    .albums{
+                        .albums-accordion{
+                            background-color: cornflowerblue;
+                            .songs{
+                                .songs-details{
+                                    background-color:burlywood;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .data-fetched{
+        margin-top: 100px;
+        text-align: center;
+    }
+}
